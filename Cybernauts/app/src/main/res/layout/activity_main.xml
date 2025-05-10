@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#000000"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/HolaMundo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola Mundo"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Andrés Valdés 6-726-1938"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFA500"
+        android:backgroundTint="#FFA500"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/botonHolaM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me!"
+        android:textColor="#000000"
+        android:backgroundTint="#FFA500"
+        android:layout_marginBottom="16dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusedMonthDateColor="#FFA500"
+        android:unfocusedMonthDateColor="#FFFFFF"
+        android:weekSeparatorLineColor="#FFA500"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/checking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione"
+        android:checked="false"
+        android:textColor="#FFFFFF"
+        android:buttonTint="#FFA500"
+        android:layout_marginBottom="24dp" />
+
+    <ImageButton
+        android:id="@+id/imageBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/boton"
+        android:backgroundTint="#FFA500"
+        android:contentDescription="Ir al segundo activity"
+        android:scaleType="centerInside" />
+
+
+</LinearLayout>

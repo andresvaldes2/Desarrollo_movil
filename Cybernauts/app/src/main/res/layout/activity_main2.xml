@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/secondLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/secondTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Activity"
+        android:textColor="#FFA500"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Cuadro de texto para solo números -->
+    <EditText
+        android:id="@+id/numberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingresa solo números"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:backgroundTint="#FFA500"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/whatsappBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir chat del numero ingresado"
+        android:backgroundTint="#25D366"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a MainActivity"
+        android:backgroundTint="#FFA500"
+        android:textColor="#FFFFFF"
+        android:padding="10dp" />
+
+</LinearLayout>
